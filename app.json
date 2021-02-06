@@ -1,0 +1,28 @@
+{
+  "name": "OCR Bot",
+  "description": "Telegram's best Open Source Rename Bot. Create your Fork now.",
+  "keywords": [
+    "telegram",
+    "best",
+    "open",
+    "source",
+    "Rename"
+  ],
+  "success_url": "https://telegram.dog/URL_Upload_Robot",
+  "website": "https://mrbotdeveloper.github.io/Rename-Bot",
+  "repository": "https://github.com/MrBotDeveloper/Rename-Bot",
+  "env": {
+  },
+  "addons": [
+    {}
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
