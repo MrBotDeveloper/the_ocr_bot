@@ -100,7 +100,7 @@ def donate(update,context):
     return donate
 	
 def main(): 
-    bot_token=os.environ.get("BOT_TOKEN", "1521401208:AAGO9428Rn3BSZeygfk94SzgVHlOePMPN-Q")
+    bot_token=os.environ.get("BOT_TOKEN", "1690420722:AAGOQBTNQ8-5lHxcGi1fZtE9PmqjrU8zxz8")
     updater = Updater(bot_token,use_context=True)
     dp=updater.dispatcher
     dp.add_handler(CommandHandler('start',start))
