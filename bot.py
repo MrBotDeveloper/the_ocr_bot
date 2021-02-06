@@ -79,7 +79,7 @@ def button(update, context):
 
     configuration = cloudmersive_ocr_api_client.Configuration()
     #Enter Your cloudmersive api key in place of  os.environ.get(...........)
-    configuration.api_key['Apikey'] = os.environ.get("CLOUDMERSIVE_API","")
+    configuration.api_key['Apikey'] = os.environ.get("CLOUDMERSIVE_API","f0c513bc-8c00-4491-830e-3e83b015feb6")
     api_instance = cloudmersive_ocr_api_client.ImageOcrApi(cloudmersive_ocr_api_client.ApiClient(configuration))
     try:
         lang=query.data
